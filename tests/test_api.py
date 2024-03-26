@@ -122,7 +122,7 @@ def test_get_token_with():
                              'client_secret': 'test-client-secret',
                          })
 
-    assert m.call_count == 2
+    assert m.call_count == 22
 
 
 def test_make_request():
