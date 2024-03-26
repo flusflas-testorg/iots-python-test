@@ -1,33 +1,28 @@
 [tool.poetry]
 name = "swx"
 version = "0.1.0"
-description = "A Python client for the Altair SmartWorks API"
+description = "A Python client for the Altair IoT Studio API"
 authors = ["Daniel Sánchez Gallego <dsanchez@altair.com>"]
 readme = "README.md"
 documentation = "https://python-api-client.readthedocs.io/en/latest/swx.html"
 repository = "https://github.com/flusflas-testorg/python-api-client"
-keywords = ["iot", "altair", "smartcore", "api", "client", "library"]
+keywords = ["iot", "altair", "api", "client", "library"]
 classifiers = ["Topic :: Software Development :: Libraries"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = "^2.31.0"
-pydantic = "^1.10.9"
+pydantic = "^1.10.13"
 xmltodict = "^0.13.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
 pytest-cov = "^4.0.0"
-datamodel-code-generator = "^0.15.0"
 autoflake = "^2.0.0"
-isort = "^5.11.4"
-vulture = "^2.7"
-black = "^22.12.0"
-sphinx = "5.3.0"
-sphinx_rtd_theme = "^1.1.1"
+sphinx = "7.2.6"
+sphinx_rtd_theme = "^2.0.0"
 sphinx-copybutton = "^0.5.2"
 autodoc_pydantic = "^1.8.0"
-typed-ast = "^1.5.4"
 m2r = "^0.3.1"
 jupyter = "^1.0.0"
 httpretty = "^1.1.4"
